@@ -4,8 +4,6 @@ import Link from 'next/link'
 import { useState } from 'react'
 export default function Home () {
   const [Ham, setHam] = useState(true);
-
-
   return (
     <main className='bg-gradient-to-t from-[#bc2eb] to-[#a6c1ee] h-screen'>
       <div className='bg-gradient-to-t from-[#fbc2eb] to[#a6c1ee] h-screen'>
@@ -15,10 +13,9 @@ export default function Home () {
               <ul className="flex md:flex-row flex-col md:w-auto w-full md-place-items-center md:gap-[5vw]  gap-10  px-16  ">
                 <li></li>
                 <li></li>
-
                     <li><Link className="hover:text-gray-500" href="">All Products</Link></li>
                     <li><Link className="hover:text-gray-500"href="">Skin&health</Link></li>
-                    <li><Link className="hover:text-gray-500"href="">Review</Link></li>
+                    <li><Link className="hover:text-gray-500"href="/Review">Review</Link></li>
             </ul>
           </div>
           <div>

@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
